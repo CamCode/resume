@@ -1,3 +1,14 @@
+@font-face {
+  font-family: 'fontello';
+  src: url('../fonts/fontello.eot?20659501');
+  src: url('../fonts/fontello.eot?20659501#iefix') format('embedded-opentype'),
+       url('../fonts/fontello.woff?20659501') format('woff'),
+       url('../fonts/fontello.ttf?20659501') format('truetype'),
+       url('../fonts/fontello.svg?20659501#fontello') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
 #header{
 	width: 100%;
 	height: 60px;
@@ -61,3 +72,112 @@ margin-right: 11px
 	display: inline-block;
 	margin: 15px;
 }
+
+#info2{
+	width: 100%;
+	background-color: #ccc;
+	height: 230px;
+}
+.sk{
+	display: inline-block;
+	width: 25%;
+	margin: 30px;
+	text-align: center;
+	padding-top: 28px;
+}
+.sk1{
+	display: inline-block;
+width: 22%;
+margin: 44px;
+height: 150px;
+text-align: right;
+padding-top: 28px;
+}
+.text2
+{
+	
+display: inline-block;
+vertical-align: top;
+margin-left: 21px;
+margin-top:5px;
+text-align: right;
+font-size: 12px;
+font-weight: bold;
+color: #000;
+
+}
+
+[class^="icon-"]:before, [class*=" icon-"]:before {
+  font-family: "fontello";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+ 
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  /* opacity: .8; */
+ 
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+     
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+ 
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em;
+ 
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+ 
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+.icon-html5:before { content: '\e800';
+-ms-transform: scale(5); /* IE 9 */
+    -webkit-transform: scale(5); /* Chrome, Safari, Opera */
+    transform: scale(5); } /* '' */
+.icon-code:before { content: '\e801'; 
+-ms-transform: scale(5); /* IE 9 */
+    -webkit-transform: scale(5); /* Chrome, Safari, Opera */
+    transform: scale(5);} /* '' */
+.icon-css3:before { content: '\e802'; 
+-ms-transform: scale(5); /* IE 9 */
+    -webkit-transform: scale(5); /* Chrome, Safari, Opera */
+    transform: scale(5);} /* '' */
+.icon-github:before { content: '\e803'; 
+-ms-transform: scale(5); /* IE 9 */
+    -webkit-transform: scale(5); /* Chrome, Safari, Opera */
+    transform: scale(5);} /* '' */
+.icon-emo-thumbsup:before { content: '\e804'; 
+-ms-transform: scale(2); /* IE 9 */
+    -webkit-transform: scale(2); /* Chrome, Safari, Opera */
+    transform: scale(2);} /* '' */
+.icon-heart-empty:before { content: '\e805'; 
+-ms-transform: scale(2); /* IE 9 */
+    -webkit-transform: scale(2); /* Chrome, Safari, Opera */
+    transform: scale(2);} /* '' */
+.icon-heart:before { content: '\e806';
+-ms-transform: scale(5); /* IE 9 */
+    -webkit-transform: scale(5); /* Chrome, Safari, Opera */
+    transform: scale(5); } /* '' */
+.icon-check:before { content: '\e807'; 
+-ms-transform: scale(2); /* IE 9 */
+    -webkit-transform: scale(2); /* Chrome, Safari, Opera */
+    transform: scale(2);} /* '' */
+.icon-heart-filled:before { content: '\e808'; 
+-ms-transform: scale(5); /* IE 9 */
+    -webkit-transform: scale(5); /* Chrome, Safari, Opera */
+    transform: scale(5);} /* '' */
+.icon-college:before { content: '\e809';
+-ms-transform: scale(5); /* IE 9 */
+    -webkit-transform: scale(5); /* Chrome, Safari, Opera */
+    transform: scale(5); } /* '' */
+.icon-garden:before { content: '\e80a';
+-ms-transform: scale(5); /* IE 9 */
+    -webkit-transform: scale(5); /* Chrome, Safari, Opera */
+    transform: scale(5); } /* '' */
