@@ -19,93 +19,54 @@
 #header nav {
 	margin: 0 auto;
 	vertical-align: middle;
-	width: 60%;
-}
-#header li{
-	display: inline-block;
-	margin: 10px auto;
-	font-size: 20px;
-	color: #666;
-	width: 32%;
-    text-align: center;
-}
-#header li a {
-	color: #666;
-	margin: 15px auto;
-	display: inline-block;
-	text-decoration: none;
-}
-#title h1{
-	font-family: 'Lobster', cursive;
-	margin: auto;
-    text-align: center;
-    color: #000;
-}
-h2{
-	font-family: 'Lobster', cursive;
-
-}
-section{
-	margin-left: 15%;
-	margin-right: 15%;
-	width: 70%;
-}
-#info{
 	width: 100%;
-	background-color: #2A2D44;
-	height: auto;
-}
-#info p{
-	font-family: 'Raleway', sans-serif;
-	font-weight: 300;
-	color: #fff;
-	font-size: 18px;
-}
-.text{
-	width: 64%;
-display: inline-block;
-vertical-align: top;
-margin-right: 11px
-}
-.img{
-	width: 27%;
-	display: inline-block;
-	margin: 15px;
+  background-color: rgba(0, 0, 0, 0.3);
+  position: fixed;
+  height: 100px;
+  padding-left: 17%;
 }
 
-#info2{
-	width: 100%;
-	background-color: #ccc;
-	height: 230px;
+li{
+  display: inline-block;
+  width: 130px;
+    height: 70px;
+    margin-top:10px;
+    margin-left: 100px;
+    
 }
-.sk{
-	display: inline-block;
-	width: 25%;
-	margin: 30px;
-	text-align: center;
-	padding-top: 28px;
+.about  a{
+   background: url("../images/about_me.png");
+  background-size: 130px 60px;
+  background-repeat: no-repeat;
+  display: inline-block;
+  width: 130px;
+  height: 70px;
 }
-.sk1{
-	display: inline-block;
-width: 22%;
-margin: 44px;
-height: 150px;
-text-align: right;
-padding-top: 28px;
+.skills a{
+    background: url("../images/skills.png");
+    background-size: 85px 60px;
+    background-repeat: no-repeat;  
+    display: inline-block;
+    width: 85px;
+    height:70px;
 }
-.text2
-{
-	
+.int_center a{
+    background: url("../images/int_center.png");
+   background-size: 150px 69px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 154px;
+    height: 70px;
+}
+.contact a{
+    background: url("../images/contact.png");
+    background-size: 140px 60px;
+background-repeat: no-repeat;
 display: inline-block;
-vertical-align: top;
-margin-left: 21px;
-margin-top:5px;
-text-align: right;
-font-size: 12px;
-font-weight: bold;
-color: #000;
-
+width: 140px;
+height: 70px
 }
+
 
 [class^="icon-"]:before, [class*=" icon-"]:before {
   font-family: "fontello";
