@@ -38,7 +38,25 @@
       <div id="skills"></div>
 
    
+<script type="text/javascript">
+$(document).ready(function(){
 
+  function bajar(position){
+        $('body').animate({scrollTop:position}, '800');
+    }
+
+    $('.about').click(function(){      
+      bajar(600)
+    });
+    $('.skills').click(function(){
+      bajar(1300)
+    });
+
+});
+  
+    
+   
+</script>
      
   </body>
 </html>
