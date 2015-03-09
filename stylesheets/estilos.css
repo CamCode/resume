@@ -8,137 +8,104 @@
   font-weight: normal;
   font-style: normal;
 }
-
+body{
+  background-color: #000;
+}
 #header{
-	width: 100%;
-	height: 60px;
-	background-color:#D3D3D3;
-	font-family: 'Raleway', sans-serif;
-	font-weight: 400;
+	width: 75%;
+  height: 700px;
+  background-image: url(../images/head.png);
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  background-size: 74vw 50vw;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  overflow: hidden;
 }
 #header nav {
 	margin: 0 auto;
 	vertical-align: middle;
 	width: 100%;
-  background-color: rgba(0, 0, 0, 0.3);
+  background-image: url(../images/fondo_m.png);
   position: fixed;
-  height: 100px;
-  padding-left: 17%;
+ height: 9vw;
+  
 }
-
+.menu{
+  width: 100%;
+  margin-left:-40px;
+}
 li{
   display: inline-block;
-  width: 130px;
-    height: 70px;
-    margin-top:10px;
-    margin-left: 100px;
+  width: 11vw;
+  height: 6vw;
+  margin: 13px 3.5%;
     
 }
 .about  a{
-   background: url("../images/about_me.png");
-  background-size: 130px 60px;
+   background: url("../images/about_me.png"); 
+   background-size: 11vw 4vw;
   background-repeat: no-repeat;
   display: inline-block;
-  width: 130px;
-  height: 70px;
+  width: 100%;
+  height: 100%;
+  vertical-align: top;
 }
 .skills a{
-    background: url("../images/skills.png");
-    background-size: 85px 60px;
+    background: url("../images/skills.png");    
     background-repeat: no-repeat;  
+    background-size: 11vw 4vw;
     display: inline-block;
-    width: 85px;
-    height:70px;
+     width: 100%;
+  height: 100%;
+    vertical-align: top;
 }
 .int_center a{
-    background: url("../images/int_center.png");
-   background-size: 150px 69px;
+    background: url("../images/int_center.png");  
     background-repeat: no-repeat;
+    background-size: 11vw 5vw;
     display: inline-block;
-    width: 154px;
-    height: 70px;
+     width: 100%;
+  height: 100%;
+    vertical-align: top;
 }
 .contact a{
-    background: url("../images/contact.png");
-    background-size: 140px 60px;
-background-repeat: no-repeat;
-display: inline-block;
-width: 140px;
-height: 70px
+    background: url("../images/contact.png");   
+    background-repeat: no-repeat;
+    background-size: 11vw 4vw;
+    display: inline-block;
+     width: 100%;
+  height: 100%;
+    vertical-align: top;
 }
 
 
-[class^="icon-"]:before, [class*=" icon-"]:before {
-  font-family: "fontello";
-  font-style: normal;
-  font-weight: normal;
-  speak: none;
- 
-  display: inline-block;
-  text-decoration: inherit;
-  width: 1em;
-  margin-right: .2em;
-  text-align: center;
-  /* opacity: .8; */
- 
-  /* For safety - reset parent styles, that can break glyph codes*/
-  font-variant: normal;
-  text-transform: none;
-     
-  /* fix buttons height, for twitter bootstrap */
-  line-height: 1em;
- 
-  /* Animation center compensation - margins should be symmetric */
-  /* remove if not needed */
-  margin-left: .2em;
- 
-  /* you can be more comfortable with increased icons size */
-  /* font-size: 120%; */
- 
-  /* Uncomment for 3D effect */
-  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+#about{
+
+  width: 75%;
+  height: 700px;
+  background-image: url(../images/about_seccion.png);
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  background-size: 74vw 50vw;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  overflow: hidden;
+  background-color: #fff;
+
 }
-.icon-html5:before { content: '\e800';
--ms-transform: scale(5); /* IE 9 */
-    -webkit-transform: scale(5); /* Chrome, Safari, Opera */
-    transform: scale(5); } /* '' */
-.icon-code:before { content: '\e801'; 
--ms-transform: scale(5); /* IE 9 */
-    -webkit-transform: scale(5); /* Chrome, Safari, Opera */
-    transform: scale(5);} /* '' */
-.icon-css3:before { content: '\e802'; 
--ms-transform: scale(5); /* IE 9 */
-    -webkit-transform: scale(5); /* Chrome, Safari, Opera */
-    transform: scale(5);} /* '' */
-.icon-github:before { content: '\e803'; 
--ms-transform: scale(5); /* IE 9 */
-    -webkit-transform: scale(5); /* Chrome, Safari, Opera */
-    transform: scale(5);} /* '' */
-.icon-emo-thumbsup:before { content: '\e804'; 
--ms-transform: scale(2); /* IE 9 */
-    -webkit-transform: scale(2); /* Chrome, Safari, Opera */
-    transform: scale(2);} /* '' */
-.icon-heart-empty:before { content: '\e805'; 
--ms-transform: scale(2); /* IE 9 */
-    -webkit-transform: scale(2); /* Chrome, Safari, Opera */
-    transform: scale(2);} /* '' */
-.icon-heart:before { content: '\e806';
--ms-transform: scale(5); /* IE 9 */
-    -webkit-transform: scale(5); /* Chrome, Safari, Opera */
-    transform: scale(5); } /* '' */
-.icon-check:before { content: '\e807'; 
--ms-transform: scale(2); /* IE 9 */
-    -webkit-transform: scale(2); /* Chrome, Safari, Opera */
-    transform: scale(2);} /* '' */
-.icon-heart-filled:before { content: '\e808'; 
--ms-transform: scale(5); /* IE 9 */
-    -webkit-transform: scale(5); /* Chrome, Safari, Opera */
-    transform: scale(5);} /* '' */
-.icon-college:before { content: '\e809';
--ms-transform: scale(5); /* IE 9 */
-    -webkit-transform: scale(5); /* Chrome, Safari, Opera */
-    transform: scale(5); } /* '' */
-.icon-garden:before { content: '\e80a';
--ms-transform: scale(5); /* IE 9 */
-    -webkit-transform: scale(5); /* Chrome, Safari, Opera */
-    transform: scale(5); } /* '' */
+
+#skills{
+
+  width: 75%;
+  height: 700px;
+  background-image: url(../images/skills_seccion.png);
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  background-size: 74vw 50vw;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  overflow: hidden;
+  background-color: #000;
+
+}
