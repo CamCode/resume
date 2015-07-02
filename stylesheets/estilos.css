@@ -109,3 +109,9 @@ li{
   background-color: #000;
 
 }
+.video{
+  margin: auto;
+  width: 75%;
+  text-align: center;
+  margin-bottom: 20px;
+}
